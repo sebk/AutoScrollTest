@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9686887115FF30010020CCD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686887015FF30010020CCD7 /* UIKit.framework */; };
+		9686887315FF30010020CCD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686887215FF30010020CCD7 /* Foundation.framework */; };
+		9686887515FF30010020CCD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686887415FF30010020CCD7 /* CoreGraphics.framework */; };
+		9686887B15FF30010020CCD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9686887915FF30010020CCD7 /* InfoPlist.strings */; };
+		9686887D15FF30010020CCD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686887C15FF30010020CCD7 /* main.m */; };
+		9686888115FF30010020CCD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686888015FF30010020CCD7 /* AppDelegate.m */; };
+		9686888415FF30010020CCD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686888315FF30010020CCD7 /* ViewController.m */; };
+		9686888715FF30010020CCD7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686888515FF30010020CCD7 /* ViewController.xib */; };
+		9686889315FF31170020CCD7 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686889115FF31170020CCD7 /* ContainerViewController.m */; };
+		9686889415FF31170020CCD7 /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686889215FF31170020CCD7 /* ContainerViewController.xib */; };
+		9686889615FF355F0020CCD7 /* 1th.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9686889515FF355F0020CCD7 /* 1th.jpg */; };
+		9686889915FF35EB0020CCD7 /* SmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686889815FF35EB0020CCD7 /* SmallView.m */; };
+		9686889C15FF3A070020CCD7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686889B15FF3A070020CCD7 /* MyScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9686886C15FF30010020CCD7 /* AutoScrollTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoScrollTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9686887015FF30010020CCD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9686887215FF30010020CCD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9686887415FF30010020CCD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9686887815FF30010020CCD7 /* AutoScrollTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoScrollTest-Info.plist"; sourceTree = "<group>"; };
+		9686887A15FF30010020CCD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9686887C15FF30010020CCD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9686887E15FF30010020CCD7 /* AutoScrollTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoScrollTest-Prefix.pch"; sourceTree = "<group>"; };
+		9686887F15FF30010020CCD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9686888015FF30010020CCD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9686888215FF30010020CCD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9686888315FF30010020CCD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9686888615FF30010020CCD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9686889015FF31170020CCD7 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		9686889115FF31170020CCD7 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		9686889215FF31170020CCD7 /* ContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController.xib; sourceTree = "<group>"; };
+		9686889515FF355F0020CCD7 /* 1th.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1th.jpg; sourceTree = "<group>"; };
+		9686889715FF35EB0020CCD7 /* SmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallView.h; sourceTree = "<group>"; };
+		9686889815FF35EB0020CCD7 /* SmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallView.m; sourceTree = "<group>"; };
+		9686889A15FF3A070020CCD7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		9686889B15FF3A070020CCD7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9686886915FF30010020CCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686887115FF30010020CCD7 /* UIKit.framework in Frameworks */,
+				9686887315FF30010020CCD7 /* Foundation.framework in Frameworks */,
+				9686887515FF30010020CCD7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9686886115FF30010020CCD7 = {
+			isa = PBXGroup;
+			children = (
+				9686887615FF30010020CCD7 /* AutoScrollTest */,
+				9686886F15FF30010020CCD7 /* Frameworks */,
+				9686886D15FF30010020CCD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9686886D15FF30010020CCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9686886C15FF30010020CCD7 /* AutoScrollTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9686886F15FF30010020CCD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9686887015FF30010020CCD7 /* UIKit.framework */,
+				9686887215FF30010020CCD7 /* Foundation.framework */,
+				9686887415FF30010020CCD7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9686887615FF30010020CCD7 /* AutoScrollTest */ = {
+			isa = PBXGroup;
+			children = (
+				9686889515FF355F0020CCD7 /* 1th.jpg */,
+				9686887F15FF30010020CCD7 /* AppDelegate.h */,
+				9686888015FF30010020CCD7 /* AppDelegate.m */,
+				9686888215FF30010020CCD7 /* ViewController.h */,
+				9686888315FF30010020CCD7 /* ViewController.m */,
+				9686888515FF30010020CCD7 /* ViewController.xib */,
+				9686889A15FF3A070020CCD7 /* MyScrollView.h */,
+				9686889B15FF3A070020CCD7 /* MyScrollView.m */,
+				9686887715FF30010020CCD7 /* Supporting Files */,
+				9686889015FF31170020CCD7 /* ContainerViewController.h */,
+				9686889115FF31170020CCD7 /* ContainerViewController.m */,
+				9686889215FF31170020CCD7 /* ContainerViewController.xib */,
+				9686889715FF35EB0020CCD7 /* SmallView.h */,
+				9686889815FF35EB0020CCD7 /* SmallView.m */,
+			);
+			path = AutoScrollTest;
+			sourceTree = "<group>";
+		};
+		9686887715FF30010020CCD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9686887815FF30010020CCD7 /* AutoScrollTest-Info.plist */,
+				9686887915FF30010020CCD7 /* InfoPlist.strings */,
+				9686887C15FF30010020CCD7 /* main.m */,
+				9686887E15FF30010020CCD7 /* AutoScrollTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9686886B15FF30010020CCD7 /* AutoScrollTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9686888A15FF30010020CCD7 /* Build configuration list for PBXNativeTarget "AutoScrollTest" */;
+			buildPhases = (
+				9686886815FF30010020CCD7 /* Sources */,
+				9686886915FF30010020CCD7 /* Frameworks */,
+				9686886A15FF30010020CCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoScrollTest;
+			productName = AutoScrollTest;
+			productReference = 9686886C15FF30010020CCD7 /* AutoScrollTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9686886315FF30010020CCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Sebastian;
+			};
+			buildConfigurationList = 9686886615FF30010020CCD7 /* Build configuration list for PBXProject "AutoScrollTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9686886115FF30010020CCD7;
+			productRefGroup = 9686886D15FF30010020CCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9686886B15FF30010020CCD7 /* AutoScrollTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9686886A15FF30010020CCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686887B15FF30010020CCD7 /* InfoPlist.strings in Resources */,
+				9686888715FF30010020CCD7 /* ViewController.xib in Resources */,
+				9686889415FF31170020CCD7 /* ContainerViewController.xib in Resources */,
+				9686889615FF355F0020CCD7 /* 1th.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9686886815FF30010020CCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686887D15FF30010020CCD7 /* main.m in Sources */,
+				9686888115FF30010020CCD7 /* AppDelegate.m in Sources */,
+				9686888415FF30010020CCD7 /* ViewController.m in Sources */,
+				9686889315FF31170020CCD7 /* ContainerViewController.m in Sources */,
+				9686889915FF35EB0020CCD7 /* SmallView.m in Sources */,
+				9686889C15FF3A070020CCD7 /* MyScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9686887915FF30010020CCD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686887A15FF30010020CCD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9686888515FF30010020CCD7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686888615FF30010020CCD7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9686888815FF30010020CCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9686888915FF30010020CCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9686888B15FF30010020CCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoScrollTest/AutoScrollTest-Prefix.pch";
+				INFOPLIST_FILE = "AutoScrollTest/AutoScrollTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9686888C15FF30010020CCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoScrollTest/AutoScrollTest-Prefix.pch";
+				INFOPLIST_FILE = "AutoScrollTest/AutoScrollTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9686886615FF30010020CCD7 /* Build configuration list for PBXProject "AutoScrollTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686888815FF30010020CCD7 /* Debug */,
+				9686888915FF30010020CCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9686888A15FF30010020CCD7 /* Build configuration list for PBXNativeTarget "AutoScrollTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686888B15FF30010020CCD7 /* Debug */,
+				9686888C15FF30010020CCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9686886315FF30010020CCD7 /* Project object */;
+}
