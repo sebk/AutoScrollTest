@@ -61,11 +61,34 @@
             
         case UIGestureRecognizerStateChanged:
         {
+            
+            CGPoint translation = [recognizer translationInView:recognizer.view.superview];
+            [recognizer setTranslation:CGPointZero inView:recognizer.view.superview];
+            CGPoint center = recognizer.view.center;
+            center.y += translation.y;
+            center.x += translation.x;
+            
+            //don't let the movable view move outside of the superview
+            float yMin = 0;
+            float xMin = 0;
+            float xMax = recognizer.view.superview.frame.size.width;
+            float yMax = recognizer.view.superview.frame.size.height;
+            if ((center.y - recognizer.view.frame.size.height/2 < yMin) ||
+                (center.y + recognizer.view.frame.size.height/2 > yMax)) {
+                return;
+            }
+            if ((center.x - recognizer.view.frame.size.width/2 < xMin) ||
+                (center.x + recognizer.view.frame.size.width/2 > xMax)) {
+                return;
+            }
+            recognizer.view.center = center;
+            
+            /*
             CGPoint translation = [recognizer translationInView:self.view];
             recognizer.view.center = CGPointMake(recognizer.view.center.x + translation.x,
                                                 recognizer.view.center.y + translation.y);
             [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-            
+            */
            
             MyScrollView *scrollView = (MyScrollView*)self.view.superview;
             
@@ -163,6 +186,7 @@
     }
     
     //move the UIView
+    //TODO: using the zoomScale should move the view in an according speed, but it doesn't work and I don't know why
     CGFloat scale = 1.0 / scrollView.zoomScale;
     if (scrollAmount.x != 0) {
         scrollAmount.x *= scale;
